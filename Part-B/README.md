@@ -1,4 +1,4 @@
-# Assignment Part-B: Fine-Tuning Pretrained Models on iNaturalist Dataset
+# DA6401 Deep Learning Assignment-2 Part-B (Fine-Tuning Pretrained Models on iNaturalist Dataset)
 
 ##  Overview
 
@@ -12,13 +12,12 @@ The dataset used is inaturalist with this structure:
 
 - **Train set**: Used for training and validation (split inside code)
 - **Val set**: Randomly split from train (default 80/20)
-- **Test set**: Not used in Part-B (could be added for final evaluation)
 
 ---
 
 ## Model Architecture & Freezing Strategy
 
-The script allows loading and fine-tuning any of these pretrained models:
+I took these models to load and fine-tune of these pretrained models:
 - **ResNet50**
 - **GoogLeNet**
 - **InceptionV3**
@@ -34,7 +33,7 @@ The script allows loading and fine-tuning any of these pretrained models:
 
 ---
 
-##  Main Components Explained
+##  Main Components:
 
 ### `pretrain_model(...)`
 - Loads pretrained model
