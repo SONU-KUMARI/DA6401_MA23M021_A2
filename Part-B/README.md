@@ -73,14 +73,14 @@ A **Bayesian hyperparameter sweep** is used to explore the optimal combination o
 
 ## Running One Custom Strategy
 
-```python
-config = {
-    'model_name': 'resnet',
-    'freeze_percent': 0.8,
-    'epochs': 10,
-    'lr': 0.0001,
-    'data_aug': 'No'
-}
+
+best_model:
+- 'model_name': 'resnet',
+- 'freeze_percent': 0.8,
+- 'epochs': 10,
+- 'lr': 0.0001,
+- 'data_aug': 'No'
+
 
 ##  How to Run
 
