@@ -111,7 +111,7 @@ The training and evaluation metrics are tracked using WandB. The following logs 
 
 ##  How to Run
 
-I have given ```ma23m021_a2_part_a.py``` and ```train_part-A.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file.  And use this command to run the code finally:
+I have given ```ma23m021_a2_part_a.py``` and ```train_part-A.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file. You just change the address of dataset in line 25 of ```train_part-A.py```.And use this command to run the code finally:
 ```
 python train_part-A.py 
 ```
