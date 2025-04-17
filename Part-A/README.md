@@ -85,7 +85,7 @@ best_model:
 - `batch_norm`= 'Yes',
 - `fc_dims`= [128],
 - `num_filters`= [32, 64, 128, 256, 512],
-- `kernel_size =[3, 3, 3, 3, 3],
+- `kernel_size` =[3, 3, 3, 3, 3],
 - `data_aug` = 'No'
 
 
