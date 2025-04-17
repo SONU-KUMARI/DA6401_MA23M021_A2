@@ -83,3 +83,9 @@ config = {
     'data_aug': 'No'
 }
 
+##  How to Run
+
+I have given ```ma23m021_a2_part_b.py``` and ```train_part-B.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file.  And use this command to run the code finally:
+```
+python train_part-B.py 
+```
