@@ -73,7 +73,6 @@ A **Bayesian hyperparameter sweep** is used to explore the optimal combination o
 
 ## Running One Custom Strategy
 
-
 best_model:
 - 'model_name': 'resnet',
 - 'freeze_percent': 0.8,
@@ -84,7 +83,7 @@ best_model:
 
 ##  How to Run
 
-I have given ```ma23m021_a2_part_b.py``` and ```train_part-B.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file.  And use this command to run the code finally:
+I have given ```ma23m021_a2_part_b.py``` and ```train_part-B.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file. You just have to change the address of data in line 20 of ```train_part-A.py``` And use this command to run the code finally:
 ```
 python train_part-B.py 
 ```
