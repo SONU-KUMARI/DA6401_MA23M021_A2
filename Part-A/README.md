@@ -17,7 +17,7 @@ The dataset used is the `inaturalist_12K`, which consists of natural images acro
 ---
 
 ##  Model Architecture
-### 1. `ConvNet` (Custom CNN Class)
+### 1. `CNN_Scratch` (Custom CNN Class)
 A fully customizable CNN model is implemented with the following features:
 
 - Variable convolutional filters and sizes
@@ -28,7 +28,7 @@ A fully customizable CNN model is implemented with the following features:
 - Final linear layer for 10-class classification
 
 
-### 2. `load_dataloaders()`
+### 2. `load_dataset()`
 - Loads training and validation sets
 - Supports optional data augmentation (random crops, flips, color jitter, etc.)
 
