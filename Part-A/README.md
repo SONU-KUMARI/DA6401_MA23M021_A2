@@ -16,7 +16,7 @@ The dataset used is the `inaturalist_12K`, which consists of natural images acro
 
 ---
 
-##  Model Architecture
+#  Model Architecture
 ### 1. `CNN_Scratch` (Custom CNN Class)
 A fully customizable CNN model is implemented with the following features:
 
@@ -97,7 +97,7 @@ Weights & Biases Project Report link:
 https://wandb.ai/ma23m021-iit-madras/MA23M021_A2_Part-A/reports/MA23M021-Assignment-2--VmlldzoxMjIxODE3NQ?accessToken=gm9wwrt7r1h82rvl9dcxtz6ofiiz2nl4zx5btwggba7pbq2tvecsaevrpb9xfztd
 
 
-##  How to Run
+#  How to Run
 
 I have given ```ma23m021_a2_part_a.py``` and ```train_part-A.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in train_part-A.py file. You just change the address of dataset in line 25 of ```train_part-A.py```.And use this command to run the code finally:
 ```
