@@ -29,40 +29,25 @@ A fully customizable CNN model is implemented with the following features:
 
 
 ### 2. `load_dataset()`
-- Loads training and validation sets
+- this function loads training and validation sets of data.
 - Supports optional data augmentation (random crops, flips, color jitter, etc.)
 
-### 3. `load_test_loader()`
-- Loads the test set with optional augmentation (disabled by default)
+### 3. `train_with_wandb()`
+- Trains the CNN using Adam optimizer and CrossEntropyLoss loss function
+- it keeps track of training accuracy
+- Runs for configurable number of epochs that is for 5 or 10.
 
-### 4. `train_with_wandb()`
-- Trains the CNN using Adam optimizer and CrossEntropyLoss
-- Tracks training accuracy
-- Runs for configurable number of epochs
+### 4. `load_test_loader()`
+- it loads the test set of inaturalist with optional data augmentation (disabled by default) 
 
 ### 5. `evaluate_test()`
-- Evaluates final model on test set
-- Computes and logs final accuracy
+- this function evaluates final model on test set
+- Computes and logs final test accuracy on test data.
 
 ### 6. `plot_predictions_grid()`
 - Collects 3 sample images per class
 - Shows predictions vs ground truth in a 10x3 image grid
 - Logs the grid to WandB
-
-### 7. Main Block
-- Initializes WandB
-- Instantiates model with best config from sweeps
-- Trains model, evaluates on test data, plots predictions
-
----
-
-##  Training Pipeline
-
-- Uses `Adam` optimizer and `CrossEntropyLoss`
-- Includes validation accuracy logging
-- Configurable epochs and learning rate
-- Batch size: 64
-- Image input size: 224×224
 
 ###  Sweep Hyperparameters (WandB)
 
