@@ -35,12 +35,12 @@ I took these models to load and fine-tune of these pretrained models:
 
 ##  Main Components:
 
-### `pretrain_model(...)`
+### `pretrained_model(...)`
 - Loads pretrained model
 - Modifies classifier head to output 10 classes
 - Freezes layers either by percentage or keeps only final layer trainable
 
-### `load_dataloaders(...)`
+### `loading_data(...)`
 - Applies data augmentation (optional)
 - Resizes all images to 224x224
 - Returns `train` and `val` `DataLoader`s
